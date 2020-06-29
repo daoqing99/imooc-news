@@ -1,6 +1,9 @@
 <template>
 	<view>
-		首页
+		<navbar></navbar>
+		<view v-for="item in 100">
+			{{item}} 内容
+		</view>
 	</view>
 </template>
 
@@ -17,6 +20,6 @@
 	}
 </script>
 
-<style>
+<style lang="scss">
 
 </style>
