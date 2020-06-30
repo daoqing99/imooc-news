@@ -31,12 +31,6 @@
 					console.log(res)
 					this.tabList = data
 				})
-				// uniCloud.callFunction({
-				// 	name:'get_label',
-				// }).then((res)=>{
-				// 	const {result} =res
-				// 	this.tabList = result.data
-				// })
 			}
 		}
 	}
